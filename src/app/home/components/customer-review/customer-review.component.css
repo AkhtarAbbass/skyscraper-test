@@ -1,0 +1,78 @@
+#customer {
+    background: #FFFFFF;
+    padding: 80px 0;
+}
+
+#customer h1 {
+    font-family: 'GT Walsheim Pro';
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #11142D;
+    margin: 20px 0 80px 0;
+}
+
+.box-control {
+    width: 45%;
+    background: #FFFFFF;
+    box-shadow: 0px 28px 52px rgba(189, 189, 189, 0.2);
+    padding: 90px 30px 30px 30px;
+    margin-left: 15px;
+}
+
+.user-name p {
+    font-family: 'GT Walsheim Pro';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142D;
+    margin: 18px 0 0 30px;
+}
+
+.ratio {
+    font-family: 'GT Walsheim Pro';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142D;
+    margin: 19px 10px 0 0;
+}
+
+.bi-star-fill {
+    color: #F5BE3D;
+    margin: 15px 0 0 5px;
+}
+
+.bi-star-half {
+    color: #F5BE3D;
+    margin: 15px 0 0 5px;
+}
+
+.left-icon {
+    font-size: 25px;
+    color: #117BD4;
+    border-radius: 25px;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    cursor: pointer;
+    margin: 130px 30px 0 0;
+    border: 2px solid #117BD4;
+}
+
+.right-icon {
+    background: #117BD4;
+    border-radius: 25px;
+    font-size: 25px;
+    color: #FFFFFF;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    cursor: pointer;
+    margin: 130px 0 0 30px;
+    padding: 2px 12px;
+}

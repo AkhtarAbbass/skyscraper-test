@@ -1,0 +1,91 @@
+.background {
+    height: 100vh;
+    background-image: url("../../../../assets/images/bluegirl.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.logo img {
+    margin: 50px 0;
+    cursor: pointer;
+}
+
+.sub-heading p {
+    font-family: 'GT Walsheim Pro';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #DBDBDB;
+    margin: 50px 50px 0 0;
+    cursor: pointer;
+}
+
+.sub-heading p:hover{
+    color: #FFFFFF;
+}
+
+.heading h1 {
+    font-family: 'GT Walsheim Pro';
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 62px;
+    color: #FFFFFF;
+    margin: 60px 0;
+}
+
+.started-btn {
+    font-family: 'GT Walsheim Pro';
+    width: 242px;
+    height: 53px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    color: #FFFFFF;
+    background: #117BD4;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 80px;
+}
+
+.started-btn:hover {
+    background: #2D85CF;
+}
+
+.icon-back {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: #E4EDFA;
+    margin: 30px 0;
+}
+
+.icon-back img {
+    height: 45px;
+    width: 45px;
+    margin: 14px 15px;
+}
+
+.text-control h2 {
+    font-family: 'GT Walsheim Pro';
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 30px 0 10px 30px;
+}
+
+.text-control p {
+    font-family: 'GT Walsheim Pro';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-left: 30px;
+}
+
+@media only screen and (max-width: 992px) {
+    .sub-heading p {
+        margin: 50px 20px 0 0;
+    }
+}

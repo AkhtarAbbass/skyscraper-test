@@ -1,0 +1,482 @@
+#price-form {
+    color: #FFFFFF;
+    padding: 80px 0 20px 0;
+}
+
+.heading p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #9BA0A4;
+}
+
+.pages-number h1 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+    color: #0F0F0F;
+}
+
+.pages-number p {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    color: #0F0F0F;
+    margin: 10px 0 0 44%;
+}
+
+.step-line-one-above {
+    position: absolute;
+    width: 167px;
+    height: 8px;
+    background: #117BD4;
+    border-radius: 20px;
+    margin: 10px 10px;
+}
+
+.step-line {
+    width: 230px;
+    height: 8px;
+    background: #E4E5E5;
+    border-radius: 20px;
+    margin: 10px 10px;
+}
+
+.steps-text p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #E4E5E5;
+    margin-left: 10px;
+}
+
+.form-bg {
+    height: 1030px;
+    background: #FFFFFF;
+    box-shadow: 4px 28px 52px rgba(194, 194, 194, 0.46);
+    padding: 40px;
+}
+
+.first-form-bg {
+    background: #F8F8F8;
+    padding: 30px 50px;
+}
+
+.first-form-bg label {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #0F0F0F;
+    margin: 20px 0 5px 0;
+}
+
+.first-form-bg label span {
+    color: #DF4D4D;
+    margin-left: 5px;
+}
+
+.first-form-bg input {
+    border: 1px solid #DADCE0;
+    border-radius: 5px;
+    padding: 18px;
+}
+
+::placeholder {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #9BA0A4;
+}
+
+.first-form-bg p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #575E62;
+    padding: 25px 50px 0 50px;
+}
+
+.flag-control {
+    align-items: center;
+    padding: 10px;
+    width: 90px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 1px solid #DADCE0;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.flag-control i {
+    color: #9BA0A4;
+}
+
+.left-line {
+    width: 325px;
+    height: 0px;
+    border: 0.8px solid #B9BBBD;
+    margin: 40px 10px 0 0;
+}
+
+.right-line {
+    width: 320px;
+    height: 0px;
+    border: 0.8px solid #B9BBBD;
+    margin: 40px 0 0 10px;
+}
+
+.line-text p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #B9BBBD;
+    margin: 34px 0;
+}
+
+.first-form-bg .form-select {
+    border: 1px solid #DADCE0;
+    border-radius: 5px;
+    margin: 5px 0 0 0;
+    padding: 18px;
+}
+
+.negative {
+    width: 50px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #DADCE0;
+    border-radius: 5px;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #333638;
+    padding: 0 20px;
+    cursor: pointer;
+    margin: 5px 0;
+}
+
+.number {
+    width: 100px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #DADCE0;
+    border-radius: 5px;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #333638;
+    padding: 0 45px;
+    margin: 5px;
+}
+
+.calender {
+    width: 130px;
+    height: 50px;
+    background: #FFFFFF;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #9BA0A4;
+    margin: 5px 0;
+}
+
+.time {
+    width: 75px;
+    height: 50px;
+    background: #FFFFFF;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    color: #9BA0A4;
+    margin: 5px 0 0 5px;
+}
+
+.text-margin {
+    margin-right: 34% !important;
+}
+
+.button-control {
+    width: 157px;
+    height: 40px;
+    background: #117BD4;
+    border-radius: 2px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    border: none;
+    margin: 50px 0;
+    float: right;
+    transition: transform 0.3s ease;
+}
+
+.button-control:hover {
+    background: #2D85CF;
+    transform: translateX(-5px);
+}
+
+.summary-sec {
+    background: #ffffff;
+    box-shadow: 0px 4px 10px -6px rgba(31, 27, 45, 0.2),
+        0px 8px 25px rgba(31, 27, 45, 0.16);
+    border-radius: 8px;
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+.summary-sec h2 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 30px;
+    color: #0F0F0F;
+    padding-bottom: 20px;
+}
+
+.summary-sec h3 {
+    font-weight: 500;
+    font-size: 24px !important;
+    line-height: 30px !important;
+    color: #0f0f0f;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.summay-line {
+    width: 100%;
+    height: 0px;
+    border: 2px solid #EBEBEC;
+    margin: 25px 0;
+}
+
+.sale-text {
+    text-decoration: line-through;
+}
+
+.summary-sec p {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #575E62;
+    margin-bottom: 0px;
+}
+
+.green-text {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #13AD35 !important;
+}
+
+.summary-sec .form-check-label {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0f0f0f;
+}
+
+.policy .form-check-label {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #424242;
+    padding: 4px 0;
+}
+
+.sum-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.sum-right {
+    display: flex;
+    gap: 10px;
+}
+
+.discount-pay p {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0F0F0F;
+    margin: 15px 0 0 0;
+}
+
+.total-bar {
+    background: #f3f3f3;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 24px;
+    margin-bottom: 10px;
+}
+
+.total-bar p {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.payment-sec {
+    background: #FAFAFA;
+    border-radius: 3px;
+    gap: 15px;
+    padding: 12px;
+}
+
+.payment-box {
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 3px;
+    padding: 11px 30px;
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+}
+
+.payment-box .bi {
+    color: #117bd4;
+}
+
+.payment-box p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px !important;
+    line-height: 15px;
+    text-align: center;
+
+    color: #117bd4 !important;
+}
+
+.grey-box p {
+    color: #9ba0a4 !important;
+}
+
+.grey-box .bi {
+    color: #9ba0a4;
+}
+
+.balance-section {
+    padding: 20px 0 10px 0;
+}
+
+.balance-text p {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.005em;
+    color: #575E62;
+}
+
+.balance-amount p {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: 0.005em;
+    color: #333638;
+    margin-right: 20px;
+}
+
+.error-wallet {
+    width: 335px;
+    height: 30px;
+    background: rgba(223, 77, 77, 0.18);
+    border-radius: 100px;
+    padding: 7px 10px;
+    margin: 18px;
+}
+
+.error-wallet p {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.005em;
+    color: #DF4D4D;
+}
+
+.pay-btn {
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #ffffff;
+    background: #117bd4;
+    border-radius: 3px;
+    width: 100%;
+    padding: 15px 0px;
+    display: block;
+    text-decoration: none;
+}
+
+.cards-sec {
+    border: 1.17667px solid #e4e5e6;
+    padding: 20px 20px 0 20px;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+}
+
+.cards-sec h3 {
+    background: #fff;
+    font-size: 16.4734px !important;
+    line-height: 33px !important;
+    color: #575e62 !important;
+    position: absolute;
+    top: -19px;
+    text-align: center;
+    left: 26%;
+}

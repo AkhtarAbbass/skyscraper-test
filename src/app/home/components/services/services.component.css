@@ -1,0 +1,137 @@
+#service {
+    background: linear-gradient(to right, var(--tw-gradient-stops));
+    --tw-gradient-stops: #F5F5F5 61%, #F5F5F5 60%, #E4EDFA 60%;
+    padding: 80px 0;
+}
+
+#service h1 {
+    font-family: 'GT Walsheim Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142D;
+    margin: 50px 0 100px 0;
+}
+
+.box-control {
+    height: 525px;
+    background: #117BD4;
+    box-shadow: 0px 28px 52px rgba(0, 61, 113, 0.2);
+    padding: 40px 25px 0 25px;
+    margin-bottom: 20px;
+    text-align: justify;
+    margin-right: 15px;
+}
+
+.box-control:hover {
+    border: 1px solid rgba(17, 123, 212, 0.53);
+    box-shadow: 0px 28px 52px rgba(0, 61, 113, 0.2);
+}
+
+.icon-back {
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    background-color: #E4EDFA;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.icon-back h1 {
+    padding: 12px
+}
+
+.box-control h4 {
+    font-family: 'GT Walsheim Pro';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.003em;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.box-control p {
+    font-family: 'GT Walsheim Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+.box-control-white {
+    height: 525px;
+    background: #FFFFFF;
+    padding: 40px 25px 0 25px;
+    margin-bottom: 20px;
+    text-align: justify;
+    margin-right: 15px;
+}
+
+.box-control-white:hover {
+    border: 1px solid rgba(17, 123, 212, 0.53);
+    box-shadow: 0px 28px 52px rgba(0, 61, 113, 0.2);
+}
+
+.icon-back-white {
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    background-color: #117BD4;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.icon-back-white h1 {
+    color: #FFFFFF !important;
+    padding: 12px
+}
+
+.box-control-white h4 {
+    font-family: 'GT Walsheim Pro';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.003em;
+    color: #11142D;
+    margin-bottom: 20px;
+}
+
+.box-control-white p {
+    font-family: 'GT Walsheim Pro';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #9A9AB0;
+}
+
+.left-icon {
+    font-size: 17px;
+    color: #117BD4;
+    border-radius: 25px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: pointer;
+    margin: 130px 0 0 0;
+    border: 1px solid #117BD4;
+    padding: 2px;
+}
+
+.right-icon {
+    background: #117BD4;
+    border-radius: 25px;
+    font-size: 17px;
+    color: #FFFFFF;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: pointer;
+    margin: 130px 100px 0 20px;
+    padding: 4px 12px;
+}

@@ -1,0 +1,105 @@
+#fast-section {
+    background: #F5F5F5;
+    padding: 80px 0;
+}
+
+#fast-section h2 {
+    font-family: 'GT Walsheim Pro';
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142D;
+    padding: 40px 0 80px 0;
+}
+
+.box-control {
+    height: 399px;
+    background: #117BD4;
+    box-shadow: 0px 28px 52px rgba(0, 61, 113, 0.2);
+    padding: 80px 25px 0 25px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.box-control:hover {
+    border: 1px solid rgba(17, 123, 212, 0.53);
+    box-shadow: 0px 28px 52px rgba(0, 61, 113, 0.2);
+}
+
+.icon-back {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: #E4EDFA;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.icon-back img {
+    padding: 22px
+}
+
+.box-control h4 {
+    font-family: 'GT Walsheim Pro';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.003em;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.box-control p {
+    font-family: 'GT Walsheim Pro';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
+
+.box-control-white {
+    height: 399px;
+    background: #FFFFFF;
+    padding: 80px 25px 0 25px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.box-control-white:hover {
+    border: 1px solid rgba(17, 123, 212, 0.53);
+    box-shadow: 0px 28px 52px rgba(0, 61, 113, 0.2);
+}
+
+.icon-back-white {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: #117BD4;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.icon-back-white img {
+    padding: 22px
+}
+
+.box-control-white h4 {
+    font-family: 'GT Walsheim Pro';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.003em;
+    color: #11142D;
+    margin-bottom: 20px;
+}
+
+.box-control-white p {
+    font-family: 'GT Walsheim Pro';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #9A9AB0;
+}

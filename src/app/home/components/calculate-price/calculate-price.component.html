@@ -1,0 +1,223 @@
+<section id="price-form">
+    <div class="container">
+        <div class="heading">
+            <p>Follow the steps to place your order!</p>
+            <div class="pages-number d-flex justify-content-start">
+                <h1>Calculate Price</h1>
+                <p>1 of 3</p>
+            </div>
+            <div class="d-flex justify-content-start">
+                <div class="steps-text">
+                    <div class="step-line-one-above"></div>
+                    <div class="step-line"></div>
+                </div>
+                <div class="steps-text">
+                    <div class="step-line"></div>
+                    <p>Calculate price</p>
+                </div>
+                <div class="steps-text">
+                    <div class="step-line"></div>
+                    <p>Review Information</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-md-12 col-sm-12">
+                <form [formGroup]="calculatePriceForm">
+                    <div class="form-bg mt-3">
+                        <div class="first-form-bg">
+                            <label>Email address <span>*</span></label>
+                            <input type="email" class="form-control" placeholder="example@gmail.com"
+                                formControlName="Email" [ngClass]="{
+                                'is-invalid': getFormControl('Email').touched && getFormControl('Email').errors,
+                                'is-valid': getFormControl('Email').valid
+                                }">
+                            <strong class="form-error"
+                                *ngIf="getFormControl('Email').touched && getFormControl('Email').hasError('required')">
+                                Email is required
+                            </strong>
+                            <strong class="form-error"
+                                *ngIf="getFormControl('Email').touched && getFormControl('Email').hasError('pattern')">
+                                Email must be in correct format
+                            </strong>
+                            <label>Phone Number <span>*</span></label>
+                            <div class="d-flex justify-content-start">
+                                <div class="flag-control d-flex justify-content-between" formControlName="Phone"
+                                    [ngClass]="{
+                                'is-invalid': getFormControl('Phone').touched && getFormControl('Phone').errors,
+                                'is-valid': getFormControl('Phone').valid
+                                }">
+                                    <img src="../../../../assets/images/flag.png">
+                                    <i class="bi bi-caret-down-fill"></i>
+                                </div>
+                                <input type="email" class="form-control" placeholder="+1" formControlName="Phone"
+                                    [ngClass]="{
+                                    'is-invalid': getFormControl('Phone').touched && getFormControl('Phone').errors,
+                                    'is-valid': getFormControl('Phone').valid
+                                    }">
+                            </div>
+                            <strong class="form-error"
+                                *ngIf="getFormControl('Phone').touched && getFormControl('Phone').hasError('required')">
+                                Phone Number is required
+                            </strong>
+                            <strong class="form-error"
+                                *ngIf="getFormControl('Phone').touched && getFormControl('Phone').hasError('pattern')">
+                                Please Enter a Valid Phone Number
+                            </strong>
+                            <p>We hate spam as much as you do. We will Never sell, rent or share your email address and
+                                phone number.
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-start">
+                            <div class="left-line"></div>
+                            <div class="line-text">
+                                <p>Calculate Price</p>
+                            </div>
+                            <div class="right-line"></div>
+                        </div>
+                        <div class="first-form-bg">
+                            <label>Document Type<span>*</span></label>
+                            <select class="form-select" formControlName="Document_type" [ngClass]="{
+                                'is-invalid': getFormControl('Document_type').touched && getFormControl('Document_type').errors,
+                                'is-valid': getFormControl('Document_type').valid
+                                }">
+                                <option disabled selected>What can we do for you?</option>
+                                <option>One</option>
+                                <option>Two</option>
+                                <option>Three</option>
+                            </select>
+                            <strong class="form-error"
+                                *ngIf="getFormControl('Document_type').touched && getFormControl('Document_type').hasError('required')">
+                                Document Type is required
+                            </strong>
+                            <label>Academic Level<span>*</span></label>
+                            <select class="form-select" formControlName="Academic_level" [ngClass]="{
+                                'is-invalid': getFormControl('Academic_level').touched && getFormControl('Academic_level').errors,
+                                'is-valid': getFormControl('Academic_level').valid
+                                }">
+                                <option disabled selected>You study at?</option>
+                                <option value="1">High school</option>
+                                <option value="2">College - Undergraduate</option>
+                                <option value="3">Master</option>
+                                <option value="3">Doctoral</option>
+                            </select>
+                            <strong class="form-error"
+                                *ngIf="getFormControl('Academic_level').touched && getFormControl('Academic_level').hasError('required')">
+                                Academic Level is required
+                            </strong>
+                            <div class="d-flex justify-content-between">
+                                <label>Number of pages <span>*</span></label>
+                                <label class="text-margin">Deadline<span>*</span></label>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div class="d-flex justify-content-start">
+                                    <div class="negative" (click)="decrement()">-</div>
+                                    <div class="number">{{ counter }}</div>
+                                    <div class="negative" (click)="increment()">+</div>
+                                </div>
+                                <div class="input-control d-flex justify-content-start">
+                                    <input type="text" class="form-control calender" placeholder="YYYY-MM-DD"
+                                        formControlName="Deadline" [ngClass]="{
+                                    'is-invalid': getFormControl('Deadline').touched && getFormControl('Deadline').errors,
+                                    'is-valid': getFormControl('Deadline').valid
+                                    }">
+                                    <input type="text" class="form-control time" placeholder="00:00"
+                                        formControlName="time" [ngClass]="{
+                                'is-invalid': getFormControl('time').touched && getFormControl('time').errors,
+                                'is-valid': getFormControl('time').valid
+                                    }">
+                                    <input type="text" class="form-control time" placeholder="AM"
+                                        formControlName="timeAM" [ngClass]="{
+                                'is-invalid': getFormControl('timeAM').touched && getFormControl('timeAM').errors,
+                                'is-valid': getFormControl('timeAM').valid
+                                        }">
+                                </div>
+                            </div>
+                        </div>
+                        <button type="button" class="button-control" (click)="nextStep()">Next Step</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="summary-sec">
+                    <h2>Summary</h2>
+                    <div class="sum-price">
+                        <p>Sub-Total:</p>
+                        <div class="sum-right">
+                            <h3 class="sale-text">$50</h3>
+                            <h3>$30</h3>
+                        </div>
+                    </div>
+                    <p class="green-text">You save $20!</p>
+                    <div class="summay-line"></div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value=false (click)="showDiscountSec()"
+                            id="flexCheckDefault" />
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Prepay 50%
+                        </label>
+                    </div>
+                    <div class="discount-pay" *ngIf="showDiscountValues === true">
+                        <div class="d-flex justify-content-between">
+                            <p>Pay Now:</p>
+                            <p>$15</p>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <p>Pay After Delivery:</p>
+                            <p>$15</p>
+                        </div>
+                    </div>
+                    <div class="total-bar">
+                        <p>Total:</p>
+                        <h3>$30</h3>
+                    </div>
+                    <div class="form-check policy">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <p class="form-check-label" for="flexCheckChecked">
+                            I agree with <a href="#">Policies</a> and
+                            <a href="#">Terms and Conditions</a>
+                        </p>
+                    </div>
+                    <h2 class="mt-5">Payment Method</h2>
+                    <div class="payment-sec d-flex justify-content-between align-items-center">
+                        <div class="payment-box" value="false" (click)="payWithCard()">
+                            <i class="bi bi-credit-card-fill"></i>
+                            <p>Pay with Card</p>
+                        </div>
+                        <div class="payment-box grey-box" value="true" (click)="payWithWallet()">
+                            <i class="bi bi-credit-card-fill"></i>
+                            <p>Pay with Wallet</p>
+                        </div>
+                    </div>
+                    <div class="balance-section" *ngIf="balance_section === true">
+                        <div class="balance-text d-flex justify-content-between">
+                            <p>Your Balance :</p>
+                            <div class="balance-amount d-flex justify-content-start">
+                                <p>$0.00</p>
+                                <a href="">Top Up</a>
+                            </div>
+                        </div>
+                        <div class="error-wallet">
+                            <p>Kindly choose another method or top-up your wallet.</p>
+                        </div>
+                    </div>
+                    <a class="pay-btn" href="#">Proceed to Payment</a>
+                </div>
+                <div class="cards-sec mt-5">
+                    <h3>Secure Payment by:<img src="../../../../assets/images/forms-images/stripe.png"></h3>
+                    <p class="d-flex justify-content-between align-items-center">
+                        <img src="../../../../assets/images/forms-images/card-1.png" alt="">
+                        <img src="../../../../assets/images/forms-images/card-2.png" alt="">
+                        <img src="../../../../assets/images/forms-images/card-3.png" alt="">
+                        <img src="../../../../assets/images/forms-images/card-4.png" alt="">
+                    </p>
+                </div>
+                <p class="d-flex justify-content-between align-items-center mt-5">
+                    <img src="../../../../assets/images/forms-images/dm-1.png" alt="">
+                    <img src="../../../../assets/images/forms-images/dm-2.png" alt="">
+                    <img src="../../../../assets/images/forms-images/dm-3.png" alt="">
+                </p>
+            </div>
+        </div>
+    </div>
+</section>

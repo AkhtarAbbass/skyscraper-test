@@ -1,0 +1,84 @@
+#asked-question {
+    background: #FFFFFF;
+    padding: 80px 0;
+}
+
+#asked-question h1 {
+    font-family: 'GT Walsheim Pro';
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #11142D;
+}
+
+.accordion-header {
+    background: #F7F8FC !important;
+    margin-bottom: 20px;
+}
+
+.accordion-button {
+    background: #F7F8FC !important;
+}
+
+.small-bar {
+    width: 10px;
+    height: 70px;
+    background: rgba(1, 58, 101, 0.4);
+}
+
+.question h1 {
+    font-family: 'GT Walsheim Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 44px;
+    color: #013A65;
+    padding: 8px 0 8px 25px;
+}
+
+.accordion-header button {
+    font-family: 'GT Walsheim Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: justify;
+    color: #11142D;
+}
+
+.accordion-body {
+    font-family: 'GT Walsheim Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #9A9AB0;
+}
+
+.view-question p {
+    font-family: 'GT Walsheim Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #35414B;
+    margin: 15px 20px;
+}
+
+.view-question p:hover {
+    color: #117BD4;
+    text-decoration: underline;
+    text-decoration-color: #117BD4;
+}
+
+.view-question i {
+    color: #35414B;
+    margin: 10px 0;
+}
+
+.view-question i:hover {
+    color: #117BD4;
+}
